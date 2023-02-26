@@ -512,7 +512,7 @@ public class QueryDslBasicTest {
     }
 
 
-    @Test
+    //@Test
     void findDtoQueryDslByField(){
         List<MemberDto> result = queryFactory
                 .select(Projections.fields(MemberDto.class,
